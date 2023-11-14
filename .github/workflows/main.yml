@@ -92,6 +92,7 @@ jobs:
 
       - name: Building
         run: haxelib run lime build android -${{ matrix.arch }}
+             n
         env:
           cert_pass: nullfunni
           cert_alias_pass: nullfunni
